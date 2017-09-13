@@ -79,3 +79,14 @@ wptKey: "3ab2c7e2a3379390862124b6601099a9cd786a4e53579c6ebcc30f707920a0baae0d"
 #    channel: "#speedtracker"
 #    username: "SpeedTracker"
 #    iconEmoji: ":grimacing:"
+
+#  emailAlert:
+#    type: "email"
+#    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
+#  otherEmailAlert:
+#    type: "email"
+#    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
+
+  emailAlert_default:
+    type: "email"
+    recipients: ["1df5cdefe570cd8b857273e43c35d4a5cc25380e5002c329eb804d6e2f29ff"]
