@@ -66,7 +66,7 @@ wptKey: "3ab2c7e2a3379390862124b6601099a9cd786a4e53579c6ebcc30f707920a0baae0d"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
+alerts:
 #  emailAlert:
 #    type: "email"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
