@@ -60,14 +60,14 @@ parameters:
 #    max: 2000
 #    alerts: ["slackAlert"]
 
-#budgets:
-#  -
-#    metric: TTFB
-#    max: 600
-#    alerts: ["emailAlert_default"]
-#  -
-#    metric: loadTime
-#    max: 9000
-#    alerts: ["emailAlert_default"]
+budgets:
+  -
+    metric: TTFB
+    max: 600
+    alerts: ["emailAlert_default"]
+  -
+    metric: loadTime
+    max: 9000
+    alerts: ["emailAlert_default"]
 
 ---
