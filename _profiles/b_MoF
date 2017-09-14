@@ -6,7 +6,7 @@
 name: "b_MoF"
 
 # The default profile will be shown as first in the SpeedTracker site.
-default: true
+default: false
 
 # auto test interval with minimum value: 12h
 interval: 12
