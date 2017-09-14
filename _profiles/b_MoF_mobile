@@ -3,7 +3,7 @@
 # Full commented version available in default.html profile
 
 # The human-friendly name of the profile. 
-name: "b_MoF"
+name: "b_MoF_mobile"
 
 # The default profile will be shown as first in the SpeedTracker site.
 default: true
