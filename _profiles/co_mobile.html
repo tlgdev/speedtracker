@@ -1,0 +1,30 @@
+---
+
+# Full commented version available in default.html profile
+
+# The human-friendly name of the profile. 
+name: "CO_mobile"
+
+# The default profile will be shown as first in the SpeedTracker site.
+default: false
+
+# auto test interval with minimum value: 12h
+interval: 12
+
+# WebPageTest test parameters - https://www.npmjs.com/package/webpagetest
+parameters:
+  connectivity: "3G"
+  location: "Dulles:Chrome"
+  runs: 1
+  firstViewOnly: false
+  private: true
+  video: true
+  emulateMobile: true
+  userAgent: "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36"
+  url: "http://www.coccinelle.com"
+
+# The URL of the WebPageTest instance to be used with this profile.
+# Leave commented for the public instance.
+#wptUrl: https://www.webpagetest.org
+
+---
