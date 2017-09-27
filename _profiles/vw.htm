@@ -1,0 +1,28 @@
+---
+
+# Full commented version available in default.html profile
+
+# The human-friendly name of the profile. 
+name: "VW"
+
+# The default profile will be shown as first in the SpeedTracker site.
+default: false
+
+# auto test interval with minimum value: 12h
+interval: 12
+
+# WebPageTest test parameters - https://www.npmjs.com/package/webpagetest
+parameters:
+  connectivity: "Cable"
+  location: "Dulles:Chrome"
+  runs: 1
+  firstViewOnly: false
+  private: true
+  video: true
+  url: "http://www.viviennewestwood.com"
+
+# The URL of the WebPageTest instance to be used with this profile.
+# Leave commented for the public instance.
+#wptUrl: https://www.webpagetest.org
+
+---
